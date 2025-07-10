@@ -1,0 +1,53 @@
+.section20{
+    background-color: #102542;
+    background-image: url(http://transparenttextures.com/patterns/cubes.png);
+  
+}
+.section2-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color:  #f87060; /* Desert sand */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    
+    color: #ffffff; /* White text for contrast */
+  }
+  .section2-image-container{
+    border-radius: 50%;
+    width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ padding-left: 70px;
+  }
+
+  .section2-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+  .section2-subtitle{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f87060; /* White text for contrast */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+.section2-description{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff; /* White text for contrast */
+    margin-bottom: 1.5rem;
+    
+  }

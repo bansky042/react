@@ -1,0 +1,70 @@
+/* Main container */
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #102542;
+  background-image: url(http://transparenttextures.com/patterns/cubes.png);
+
+  color: #ffffff;
+ 
+
+}
+
+/* Left side with text */
+.section1-left {
+
+  background-color: transparent; /* ✅ transparent to blend with page background */
+  padding: 1rem;
+}
+
+/* Headings in desert sand */
+.section1-left h1,
+.section1-left h2,
+.section1-left h3 {
+  color:  #f87060; /* ✅ desert sand */
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Paragraph in white */
+.section1-left p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.btn {
+  background-color:  #f87060;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #a95f1d;
+  transform: scale(1.05);
+}
+
+/* Right side with image */
+.section1-right {
+ 
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.section1-right img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+}

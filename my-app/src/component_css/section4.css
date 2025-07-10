@@ -1,0 +1,58 @@
+.section4{
+    background-color: #102542;
+    background-image: url(http://transparenttextures.com/patterns/cubes.png);
+    color: #fff;
+}
+.section4-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f87060; /* Desert sand */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.section4-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.section4-description{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff; /* White text for contrast */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section4-project-item {
+    background: #1a1a1a;
+    border: 1px solid #444;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    color: #edc9af;
+    font-weight: 600;
+    cursor: pointer;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .section4-project-item:hover {
+    background: #2c2c2c;
+  }
+  
+  .project-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }
+.section4-project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}  
+  

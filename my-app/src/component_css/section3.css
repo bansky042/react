@@ -1,0 +1,27 @@
+.section3{
+    background-color: #102542;
+    background-image: url(http://transparenttextures.com/patterns/cubes.png);
+}
+
+.section3-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color:  #f87060; /* Desert sand */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.section3-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+
+    color: #ffffff; /* White text for contrast */
+}
+.section3-description{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff; /* White text for contrast */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
