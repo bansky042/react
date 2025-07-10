@@ -10,7 +10,7 @@ function Section3() {
   }, []);
 
   return (
-    <div className="section3">
+    <div className="section3" id='skills'>
       <h1 className="section3-title" data-aos="fade-up">My Skills</h1>
       <div className="section3-content row">
         <div className="section3-description col-12 col-md-6" data-aos="fade-right">

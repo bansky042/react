@@ -20,11 +20,11 @@ function Navbar() {
 
       <div className={`nav-links ${isOpen ? 'active' : ''}`}>
         <ul>
-          <a href="#"><li className='nav-link'>Home</li></a>
-          <a href="#"><li className='nav-link'>About</li></a>
-          <a href="#"><li className='nav-link'>Skills</li></a>
-          <a href="#"><li className='nav-link'>My Projects</li></a>
-          <a href="#"><li className='nav-link'>Contact</li></a>
+          <a href="#home"><li className='nav-link'>Home</li></a>
+          <a href="#about"><li className='nav-link'>About</li></a>
+          <a href="#skills"><li className='nav-link'>Skills</li></a>
+          <a href="#projects"><li className='nav-link'>My Projects</li></a>
+          <a href="#contact"><li className='nav-link'>Contact</li></a>
         </ul>
       </div>
 

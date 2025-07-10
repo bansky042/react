@@ -48,7 +48,7 @@ function Section1() {
   }, []);
 
   return (
-    <div className="section1">
+    <div className="section1" id='home'>
       <div className="row">
         <div className="section1-left col-12 col-md-6">
           <h1 data-aos="fade-up">Hello, I'm</h1>

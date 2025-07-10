@@ -6,7 +6,7 @@ import image from '../component_css/images/IMG_8441.JPG';
 
 function Section2() {
     return (
-        <div className="section20">
+        <div className="section20" id="about">
              <h1 className="section2-title">About Me</h1>
             <div className="section2 row" >
        

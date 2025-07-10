@@ -32,7 +32,7 @@ function Section4() {
   ];
 
   return (
-    <div className="section4">
+    <div className="section4" id="projects">
       <h1 className="section4-title" data-aos="fade-up">My Projects</h1>
 
       <div className="section4-content row">
