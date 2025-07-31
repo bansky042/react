@@ -13,52 +13,73 @@ function Section4() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      name: "Project Name",
-      description: "A full-stack web application using React and Node.js",
+      title: "Ban-Invest",
+      name: "Investment Platform",
+      description: "An investment platform with deposits, withdrawals, and referrals.",
+      homepageImage: "/src/component_css/images/investment.png", // Replace with your image path
+      link: "https://investment-website-qohq.onrender.com/",
     },
     {
       id: 2,
-      title: "Project 2",
-      name: "Project Name",
-      description: "A responsive portfolio website built with HTML, CSS, and JavaScript",
+      title: "BanBlog",
+      name: "Advanced Blog",
+      description: "A modern blog platform with EJS and Node.js backend.",
+      homepageImage: "/src/component_css/images/BLOG.png", // Replace with your image path
+      link: "https://blog-website-1-mzt1.onrender.com/",
     },
     {
       id: 3,
-      title: "Project 3",
-      name: "Project Name",
-      description: "An e-commerce platform with user authentication and payment integration",
+      title: "BanMarket",
+      name: "Ban Market",
+      description: "A sleek and responsive eCommerce platform built with Node.js and EJS, offering a seamless shopping experience",
+      homepageImage: "/src/component_css/images/shopping.png", // Replace with your image path
+      link: "https://e-commerce-website-s6f7.onrender.com/",
     },
   ];
 
   return (
     <div className="section4" id="projects">
-      <h1 className="section4-title" data-aos="fade-up">My Projects</h1>
+      <div className="container">
+        <h1 className="section4-title" data-aos="fade-up">My Projects</h1>
 
-      <div className="section4-content row">
-        <div className="section4-description col-12" data-aos="fade-right">
-          <h2 className="section4-subtitle">What I Have Built</h2>
-          <p>Here are some of the projects I have worked on:</p>
+        <div className="section4-content row">
+          <div className="section4-description col-12" data-aos="fade-right">
+            <h2 className="section4-subtitle">What I Have Built</h2>
+            <p>Here are some of the projects I have worked on:</p>
 
-          <ul className="section4-project-list row">
-            {projects.map((project) => (
-              <li
-                key={project.id}
-                className="section4-project-item col-12 col-md-3"
-                onMouseEnter={() => setHoveredProject(project.id)}
-                onMouseLeave={() => setHoveredProject(null)}
-              >
-                {hoveredProject === project.id ? (
-                  <>
-                    <span className="project-name">{project.name}</span>
-                    <p>{project.description}</p>
-                  </>
-                ) : (
-                  project.title
-                )}
-              </li>
-            ))}
-          </ul>
+            <div className="section4-project-grid">
+              {projects.map((project) => (
+                <div
+                  key={project.id}
+                  className="section4-project-card"
+                  onMouseEnter={() => setHoveredProject(project.id)}
+                  onMouseLeave={() => setHoveredProject(null)}
+                >
+                  <img
+                    src={project.homepageImage}
+                    alt={`${project.title} homepage`}
+                    className="project-homepage-img"
+                  />
+
+                  {hoveredProject === project.id && (
+                    <div className="project-hover-overlay">
+                      <h3>{project.name}</h3>
+                      <p>{project.description}</p>
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                      >
+                        Visit Website
+                      </a>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+          </div>
         </div>
       </div>
     </div>

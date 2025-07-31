@@ -21,7 +21,7 @@ function Section2() {
             />
 
         </div>
-<br />
+
 
         <div className="section2-description  col-12 col-md-6"  data-aos="fade-left">
         <h2 className="section2-subtitle">Who I Am</h2>

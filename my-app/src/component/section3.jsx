@@ -13,7 +13,7 @@ function Section3() {
     <div className="section3" id='skills'>
       <h1 className="section3-title" data-aos="fade-up">My Skills</h1>
       <div className="section3-content row">
-        <div className="section3-description col-12 col-md-6" data-aos="fade-right">
+        <div className="section3-description col-12 col-md-5" data-aos="fade-right">
           <h2 className="section3-subtitle">What I Can Do</h2>
           <p>I am proficient in a variety of programming languages and frameworks, including:</p>
           <ul className="section3-skill-list">

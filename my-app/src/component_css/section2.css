@@ -1,7 +1,15 @@
 .section20{
-    background-color: #102542;
-    background-image: url(http://transparenttextures.com/patterns/cubes.png);
-  
+    background-color: #fff;
+    /* background-image: url(http://transparenttextures.com/patterns/cubes.png);
+   */
+   background-image: linear-gradient(to right, #ffffff, #e4cfbb);
+    padding: 3rem;
+    color: #111; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .section2-title{
     font-size: 2rem;
@@ -14,9 +22,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem;
+    margin: 0 2rem ;
     
-    color: #ffffff; /* White text for contrast */
+    color: #111; /* White text for contrast */
   }
   .section2-image-container{
     border-radius: 50%;
@@ -37,7 +45,7 @@
     align-items: center;
   }
   .section2-subtitle{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: #f87060; /* White text for contrast */
     margin-bottom: 1rem;
@@ -47,7 +55,7 @@
 .section2-description{
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #ffffff; /* White text for contrast */
-    margin-bottom: 1.5rem;
+    color: #111; /* White text for contrast */
+    
     
   }

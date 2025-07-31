@@ -4,10 +4,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  background-color: #102542;
-  background-image: url(http://transparenttextures.com/patterns/cubes.png);
+  background-color: #fff; /* ✅ white background for contrast */
+   background-image: linear-gradient(to right, #ffffff, #e4cfbb); /* ✅ gradient from desert sand to dark orange */
 
-  color: #ffffff;
+  color: #111;
  
 
 }
@@ -25,13 +25,13 @@
 .section1-left h3 {
   color:  #f87060; /* ✅ desert sand */
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 /* Paragraph in white */
 .section1-left p {
-  color: #ffffff;
+  color: #111;
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;

@@ -39,4 +39,9 @@
   .skill-percent-inside {
     color: #1a1a1a;
   }
+  .section3-skill-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
   

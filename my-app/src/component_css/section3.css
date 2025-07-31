@@ -1,27 +1,37 @@
-.section3{
-    background-color: #102542;
-    background-image: url(http://transparenttextures.com/patterns/cubes.png);
-}
-
-.section3-title{
+.section3 {
+    background-color: #fff;
+    /* background-image: url(http://transparenttextures.com/patterns/cubes.png); */
+    padding: 4rem 1rem;
+    background-image: linear-gradient(to right, #ffffff, #e4cfbb);
+  }
+  
+  .section3-title {
     font-size: 2rem;
     font-weight: bold;
-    color:  #f87060; /* Desert sand */
-    margin-bottom: 1rem;
+    color: #f87060; /* Desert sand */
+    margin-bottom: 2rem;
     text-align: center;
-}
-.section3-content{
+  }
+  
+  .section3-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
-
-    color: #ffffff; /* White text for contrast */
-}
-.section3-description{
+    flex-wrap: wrap; /* ✅ Important: allow wrapping on small screens */
+    color: #111;
+    max-width: 1200px;
+    margin: 0 auto; /* ✅ center the section content */
+    gap: 2rem;
+  }
+  
+  .section3-description {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #ffffff; /* White text for contrast */
+    color: #111;
     margin-bottom: 1.5rem;
-    text-align: center;
-}
+    text-align: left;
+    padding: 1rem;
+    flex: 1;
+    min-width: 280px;
+  }
+  
